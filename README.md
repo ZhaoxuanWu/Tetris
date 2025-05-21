@@ -1,5 +1,5 @@
 # <img src="tetris.png" alt="Tetris" style="height:1em; vertical-align:middle;"> TETRIS: Optimal Draft Token Selection for Batch Speculative Decoding
-> 🔬 **ACL 2025 (main)** | [paper link]([https://arxiv.org/abs/your-paper-link](https://arxiv.org/pdf/2502.15197))  
+> 🔬 **ACL 2025 (main)** | [paper link](https://arxiv.org/pdf/2502.15197)
 > **Zhaoxuan Wu^, Zijian Zhou^, Arun Verma, Alok Prakash, Daniela Rus, and Bryan Kian Hsiang Low**
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE)

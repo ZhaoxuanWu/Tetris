@@ -15,8 +15,8 @@
 **TETRIS** optimizes the total throughput of batch speculative decoding in multi-request settings by strategically selecting draft tokens for verification.
 
 > ⭐ **_Fast LLM inference for service providers with limited inference capacity._**  
-> ⏩ Designed to **maximize throughput** and **minimize wasted computation**  
-> 🚀 Ideal for **LLM service providers with limited compute resources**
+> ⏩ Designed to **maximize throughput** and **minimize wasted computation.**  
+> 🚀 Ideal for **LLM service providers with limited compute resources.**
 
 Unlike existing methods that optimize for a single request or a group of requests as a whole, Tetris actively selects the most promising draft tokens (for every request in a batch) to be accepted when verified in parallel, resulting in fewer rejected tokens and hence less wasted computing resources.
 
@@ -45,6 +45,11 @@ git clone https://github.com/lm-sys/FastChat.git
 cd FastChat
 pip3 install --upgrade pip
 pip3 install -e .
+```
+
+Install *pytorch_scatter* binaries for PyTorch 2.6.0. Other installation methods can be found [here](https://github.com/rusty1s/pytorch_scatter).
+```bash
+pip install torch-scatter -f https://data.pyg.org/whl/torch-2.6.0+${CUDA}.html
 ```
 
 # Prepare the data

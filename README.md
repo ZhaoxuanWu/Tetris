@@ -3,6 +3,17 @@ This is the official code for the paper published at ACL 2024 main conference:
 > 
 > Zhaoxuan Wu, Zijian Zhou, Arun Verma, Alok Prakash, Daniela Rus, and Bryan Kian Hsiang Low
 
+# What's Tetris <img src="tetris.png" alt="Tetris" style="height:1em; vertical-align:middle;">?
+
+Tetris optimizes the total throughput of batch speculative decoding in multi-request settings by strategically selecting draft tokens for verification.
+
+⭐ **_Fast LLM inference for service providers with limited inference capacity._**
+
+Unlike existing methods that optimize for a single request or a group of requests as a whole, Tetris actively selects the most promising draft tokens (for every request in a batch) to be accepted when verified in parallel, resulting in fewer rejected tokens and hence less wasted computing resources.
+<!-- Such an effective resource utilization to achieve fast inference in large language models (LLMs) is especially important to service providers with limited inference capacity. -->
+
+<img src="tetris_fig.png" alt="Tetris Figure" style="max-width:600px; width:100%;">
+
 # Installation
 
 Install the library from source.

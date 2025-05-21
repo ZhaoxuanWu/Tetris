@@ -47,11 +47,6 @@ pip3 install --upgrade pip
 pip3 install -e .
 ```
 
-Install *pytorch_scatter* binaries for PyTorch 2.6.0. Other installation methods can be found [here](https://github.com/rusty1s/pytorch_scatter).
-```bash
-pip install torch-scatter -f https://data.pyg.org/whl/torch-2.6.0+${CUDA}.html
-```
-
 # Prepare the data
 You can download the dataset by running:
 
